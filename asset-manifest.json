@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/realtor-website/static/css/main.073c9b0a.css",
+    "main.js": "/realtor-website/static/js/main.3fd9674a.js",
+    "static/js/787.0ee18c91.chunk.js": "/realtor-website/static/js/787.0ee18c91.chunk.js",
+    "static/media/logo.svg": "/realtor-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/realtor-website/index.html",
+    "main.073c9b0a.css.map": "/realtor-website/static/css/main.073c9b0a.css.map",
+    "main.3fd9674a.js.map": "/realtor-website/static/js/main.3fd9674a.js.map",
+    "787.0ee18c91.chunk.js.map": "/realtor-website/static/js/787.0ee18c91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3fd9674a.js"
+  ]
+}
