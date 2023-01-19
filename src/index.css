@@ -74,6 +74,9 @@ section > h2 {
 .text-light {
     color: var(--color-light);
 }
+.text__small {
+    font-size: 0.7rem;
+}
 
 a {
     color: var(--color-primary);
@@ -103,6 +106,13 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+.btn-small {
+    width: fit-content;
+    height: fit-content;
+    background: var(--color-bg-dark);
+    padding: 0.3rem;
+    font-size: 0.75rem;
 }
 
 img {
