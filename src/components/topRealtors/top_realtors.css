@@ -1,0 +1,105 @@
+#topRealtors {
+    margin-top: 2rem;
+}
+.topRealtors__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.topRealtors__header-icon {
+    color: var(--color-bg);
+    margin-right: 0.75rem;
+}
+.topRealtors__container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.topRealtors__container > div {
+    margin: 0 auto;
+}
+.summury {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: var(--color-primary);
+    padding: 1.2rem 0 1.2rem 0;
+}
+.summury__item {
+    padding-left: 1.2rem;
+    text-align: center;
+}
+
+.summury > .text__small {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.activity_summury-icon {
+    font-size: 1.7rem;
+}
+.summury > button {
+    transform: translate(1rem, -2rem);
+}
+
+.topRealtors__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-primary);
+    align-content: flex-start;
+}
+.topRealtors__item:first-child {
+    border-top: 1px solid var(--color-primary);
+}
+.topRealtors__item-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.topRealtors__item-image {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 3rem;
+    height: auto;
+    overflow: hidden;
+}
+.realtor {
+    border-radius: 50%;
+}
+@media screen and (max-width: 1024px) {
+    .topRealtors__header {
+        display: flex;
+        flex-direction: column;
+    }
+    .topRealtors__item {
+        flex-direction: column;
+        font-size: 0.9rem;
+    }
+   
+}
+
+@media screen and (max-width: 760px) {
+    .topRealtors__header {
+        font-size: 0.9rem;
+    }
+    .summury {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .summury > button {
+        transform: translate(6rem, -6rem);
+    }
+    .topRealtors__item-details {
+        flex-direction: column;
+    }
+    .topRealtors__item-details > div {
+        display: flex;
+        align-items: center;
+        gap: 0.2rem;
+    }
+}
