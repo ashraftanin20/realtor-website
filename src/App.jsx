@@ -6,7 +6,6 @@ import { Header } from './components/header/Header';
 import { Realstate } from './components/realstate/Realstate';
 import { Realtor } from './components/realtor/Realtor';
 import { TopRealtors } from './components/topRealtors/TopRealtores';
-
 function App() {
   return (
     <>
