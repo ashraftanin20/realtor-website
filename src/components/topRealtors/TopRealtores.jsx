@@ -3,7 +3,6 @@ import './top_realtors.css';
 import { FaStar } from 'react-icons/fa';
 import { FcFolder } from 'react-icons/fc';
 import { ImPlus } from 'react-icons/im';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
 import topRealtors_image from '../../assets/realtor_image.png';
 import apartment_img from '../../assets/apartment2.jpg';
 
