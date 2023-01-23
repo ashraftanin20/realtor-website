@@ -1,5 +1,6 @@
 import React from 'react';
 import { About } from './components/about/About';
+import { Agency } from './components/agency/Agency';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
@@ -9,13 +10,14 @@ import { TopRealtors } from './components/topRealtors/TopRealtores';
 function App() {
   return (
     <>
-        <Header />
-        <Realstate />
-        <Realtor />
-        <TopRealtors />
-        <About />
-        <Contact />
-        <Footer />
+      <Header />
+      <Realstate />
+      <Realtor />
+      <TopRealtors />
+      <Agency />
+      <About />
+      <Contact />
+      <Footer />
     </>
   )
 }

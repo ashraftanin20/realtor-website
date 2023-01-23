@@ -1,0 +1,48 @@
+
+.agency_cotainer {
+    margin-top: 2rem;
+}
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container__header-icon {
+    color: var(--color-bg);
+    margin-right: 0.75rem;
+}
+.realtor__container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.realtor__container > div {
+    margin: 0 auto;
+}
+.realstate__item-image {
+    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 50%;
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+.realtor__item-icon {
+    color: var(--color-bg);
+    font-size: 1.5rem;
+    transform: translate(6rem, 3rem);
+}
+
+@media screen and (max-width: 1024px) {
+    .container__header {
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (max-width: 760px) {
+    .container__header {
+        font-size: 0.75rem;
+    }
+}
