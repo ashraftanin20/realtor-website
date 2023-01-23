@@ -9,13 +9,13 @@ import { TopRealtors } from './components/topRealtors/TopRealtores';
 function App() {
   return (
     <>
-        <Header />
-        <Realstate />
-        <Realtor />
-        <TopRealtors />
-        <About />
-        <Contact />
-        <Footer />
+      <Header />
+      <Realstate />
+      <Realtor />
+      <TopRealtors />
+      <About />
+      <Contact />
+      <Footer />
     </>
   )
 }
